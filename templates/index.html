@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Docker</title>
+</head>
+<body>
+    <h1>Esta es una App Flask dentro de un contenedor Docker!</h1>
+</body>
+<!-- <img src="C:\Users\balde\OneDrive\Documentos\flask_docker\static\docker.png" width="600" height="600"/> -->
+<img src="{{ url_for('static', filename='docker.png') }}" width="600" height="600"/>
+</html>
